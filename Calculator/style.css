@@ -1,0 +1,64 @@
+.calculator {
+    border: 2px solid pink;
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.result {
+    border: 1px solid pink;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.result-text {
+    font-size:  20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif8;
+    color: mediumpurple;
+}
+
+.row {
+    display: flex;
+    height: 30px;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.btn {
+    flex: 1;
+    background-color: lavender;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+.grey button {
+    background-color: lightskyblue;
+}
+
+.btn:hover {
+    opacity: 50%;
+}
+
+.btn:active {
+    background-color: slategrey;
+}
+
+.main-btns {
+    display: flex;
+    gap: 5px;
+}
+
+.numbers {
+    flex: 4;
+}
+
+.equal-btn {
+    flex: 1;
+    margin-top: 10px;
+}
